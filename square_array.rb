@@ -3,7 +3,7 @@ def square_array(array)
   myArr = Array.new
 
   array.each do |item|
-    my_array.unshift(item * 2)
+    myArr.unshift(item * 2)
   end
   return myArr
 end

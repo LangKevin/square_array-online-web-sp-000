@@ -1,6 +1,7 @@
 def square_array(array)
   # your code here
-  myArr = new array
+  myArr = Array.new
+
   array.each do |item|
     my_array.unshift(item * 2)
   end

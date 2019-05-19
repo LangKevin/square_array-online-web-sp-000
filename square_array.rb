@@ -1,9 +1,8 @@
 def square_array(array)
   # your code here
-  myArr = array
-  myArr.each do |item|
-    myArr[item] += 2
-    puts "Whoooo are you?"
+  myArr = new
+  array.each do |item|
+    my_array.unshift(item * 2)     
   end
   return myArr
 end

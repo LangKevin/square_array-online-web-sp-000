@@ -3,6 +3,7 @@ def square_array(array)
   myArr = array
   myArr.each do |item|
     item = item ** 2
+    puts "Whoooo are you?"
   end
   return myArr
 end
